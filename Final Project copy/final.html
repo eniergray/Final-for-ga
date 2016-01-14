@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="JS/final.js"></script>
+</head>
+<body>
+<header>  
+  <h2>Welcome To Your Future</h2>
+<div class="container">
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" id="menu1" type="button" data-toggle="dropdown">Check Here!
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Main</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Tarot</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Palm Reading</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Tarot Card</a></li>
+      <li role="presentation" class="divider"></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Contact Me</a></li>    
+    </ul>
+  </div>
+</div>
+</header>
+<div class="random-image">
+<h2>Your Card</h2>
+  <div id="cardStage">
+    
+    <div class="card">
+
+    </div>
+
+
+
+  </div>
+<!-- <img src="images/random-image-1.png" alt="Tarot Card"> -->
+
+
+<form action="select">
+  <label class="radio-inline">
+  <input type="radio" class="cardSelect" name="card" value="1" checked="checked"> 1 Card
+  </label>
+  <label class="radio-inline">
+  <input type="radio" class="cardSelect" name="card" value="3"> 3 Cards
+  </label>
+  <label class="radio-inline">
+  <input type="radio" class="cardSelect" name="card" value="5"> 5 Cards
+  </label>
+  </form> 
+<input class="randombutton" style="float: left;" type="button" value="Click To Pick A Card" onclick="randomImg1()"/>
+</div>
+
+
+</body>
+<footer>
+gman designs 2016
+</footer>
+</html>
